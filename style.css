@@ -1,0 +1,21 @@
+body {
+    background-image: url(flor_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #2a4d8f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#carta {
+    justify-content: center top;
+    align-items: center top;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: justify;
+}
