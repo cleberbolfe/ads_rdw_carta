@@ -1,21 +1,49 @@
+
 body {
     background-image: url(flor_background.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-color: #2a4d8f;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    margin:0px
 }
 
-#carta {
-    justify-content: center top;
-    align-items: center top;
+a {
+    text-decoration: none;  
+    color: #000000;;
 }
+a:hover{
+    background-color: #f0eeee;
+    color: #986ac4;;
+}
+.pagina {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center top
+    }
+    .carta {
+    width:600px;
+    height:600px;
+    }
 
 h1 {
-    text-align: center;
+    text-align:center;
+    font-size:40px
 }
 
 h2 {
-    text-align: justify;
+    text-align: left;
+    font-size:25px
+}
+h3 {
+    text-align:left;
+    font-size:20px
+}
+h4 {
+    text-align:left;
+    font-size:15px
 }
